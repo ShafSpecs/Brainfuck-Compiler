@@ -3,5 +3,5 @@ const compile = require("./brainfuckCompiler");
 
 const currentDir = process.cwd();
 
-const content = fs.readFileSync(currentDir + "/exports/" + "helloworld.bf", "utf8");
+const content = fs.readFileSync(currentDir + "/exports/" + "99_bottles.bf", "utf8");
 console.log(compile(content));
